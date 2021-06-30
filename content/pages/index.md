@@ -12,7 +12,7 @@ sections:
       - label: Learn More
         url: /features
         style: primary
-    title: Custom Indicators for Algorithms
+    title: 'Custom Indicators for Algorithmic '
   - section_id: features
     type: section_features
     background: gray
