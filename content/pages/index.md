@@ -12,7 +12,7 @@ sections:
       - label: Learn More
         url: /features
         style: primary
-    title: Algorithms
+    title: Custom Algorithms
   - section_id: features
     type: section_features
     background: gray
