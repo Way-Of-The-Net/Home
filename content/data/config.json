@@ -1,7 +1,7 @@
 {
     "title": "Way Of The Net",
     "path_prefix": "/",
-    "base_font": "nunito-sans",
+    "base_font": "system-sans",
     "palette": "green",
     "header": {
         "logo_img": "images/logo.svg",
