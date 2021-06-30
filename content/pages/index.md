@@ -12,7 +12,7 @@ sections:
       - label: Learn More
         url: /features
         style: primary
-    title: asdf
+    title: 'Algorithms '
   - section_id: features
     type: section_features
     background: gray
