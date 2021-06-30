@@ -12,7 +12,7 @@ sections:
       - label: Learn More
         url: /features
         style: primary
-    title: Building Custom Indicators for Successful Algo Trading
+    title: Building Custom Indicators for Success in Algo Trading
   - section_id: features
     type: section_features
     background: gray
