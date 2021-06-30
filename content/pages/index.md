@@ -5,9 +5,9 @@ sections:
     type: section_hero
     image: /images/stock-vs-market-wo-1.jpg
     image_alt: App preview
-    content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site.
+    content: >
+      Way Of The Net creates technical analysis indicators based on numerous
+      factors such as sentiment analysis and order flow.
     actions:
       - label: Learn More
         url: /features
