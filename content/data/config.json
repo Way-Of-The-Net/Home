@@ -1,8 +1,8 @@
 {
-    "title": "Azimuth",
+    "title": "Way Of The Net",
     "path_prefix": "/",
     "base_font": "nunito-sans",
-    "palette": "blue",
+    "palette": "green",
     "header": {
         "logo_img": "images/logo.svg",
         "logo_img_alt": "Logo",
@@ -29,7 +29,7 @@
                 "style": "link"
             },
             {
-                "label": "MARGIN",
+                "label": "Contact Us",
                 "url": "/signup",
                 "style": "primary"
             }
@@ -133,5 +133,5 @@
         ],
         "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>."
     },
-    "domain": "https://friendly-daffodil-be473.netlify.app"
+    "domain": "https://www.wayofthenet.com"
 }
