@@ -3,7 +3,7 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: /images/50849584006_6ce30ac5e5_w.jpg
+    image: /images/stock-vs-market-wo-1.jpg
     image_alt: App preview
     content: >-
       Azimuth is the perfect theme for developers, designers and entrepreneurs
