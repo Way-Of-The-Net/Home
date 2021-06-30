@@ -12,7 +12,7 @@ sections:
       - label: Learn More
         url: /features
         style: primary
-    title: Building Custom Indicators for Algorithmic Trading
+    title: Building Custom Indicators for Algo Trading
   - section_id: features
     type: section_features
     background: gray
