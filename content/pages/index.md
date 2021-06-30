@@ -12,6 +12,7 @@ sections:
       - label: Learn More
         url: /features
         style: primary
+    title: asdf
   - section_id: features
     type: section_features
     background: gray
