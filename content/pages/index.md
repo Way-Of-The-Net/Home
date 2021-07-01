@@ -73,7 +73,7 @@ sections:
         style: primary
 seo:
   title: Way Of The Net Algorithmic Trading
-  description: The preview of the Azimuth theme
+  description: Algorithmic Trading 
   extra:
     - name: 'og:type'
       value: website
