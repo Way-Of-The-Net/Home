@@ -72,7 +72,7 @@ sections:
         url: /signup
         style: primary
 seo:
-  title: Stackbit Azimuth Theme
+  title: Way Of The Net
   description: The preview of the Azimuth theme
   extra:
     - name: 'og:type'
