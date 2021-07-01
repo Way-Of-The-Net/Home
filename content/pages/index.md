@@ -21,7 +21,7 @@ sections:
       Enabling users to choose the algorithmic strategy they feel most
       comfortable with to manage their portfolio.
     features:
-      - title: The Best Feature of Your Services
+      - title: Pick a Strategy.
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         content: >-
