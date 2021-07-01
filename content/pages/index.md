@@ -18,16 +18,16 @@ sections:
     background: gray
     title: Features
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Enabling users to choose the algorithmic strategy they feel most
+      comfortable with to manage their portfolio.
     features:
-      - title: The Best Feature of Your Services
+      - title: Select your strategy. Control your risk.
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
-        content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+        content: >
+          Our strategies are custom tailored and built from the ground up.
+          Sourcing many of our proprietary data feeds, we enable our users to
+          access tools that a usually only available to accredited investors.
         actions:
           - label: Learn More
             url: /features
