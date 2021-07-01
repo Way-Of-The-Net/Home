@@ -72,7 +72,7 @@ sections:
         url: /signup
         style: primary
 seo:
-  title: Way Of The Net
+  title: Way Of The Net Algorithmic Trading
   description: The preview of the Azimuth theme
   extra:
     - name: 'og:type'
