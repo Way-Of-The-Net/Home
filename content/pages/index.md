@@ -18,8 +18,8 @@ sections:
     background: gray
     title: Features
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Enabling users to choose the algorithmic strategy they feel most
+      comfortable with to manage their portfolio.
     features:
       - title: The Best Feature of Your Services
         image: images/feature1.png
