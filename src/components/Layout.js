@@ -6,6 +6,7 @@ import _ from 'lodash';
 import { withPrefix, classNames } from '../utils';
 import Header from './Header';
 import Footer from './Footer';
+import { createChart } from 'lightweight-charts';
 
 export default class Body extends React.Component {
     constructor(props) {
