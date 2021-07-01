@@ -93,7 +93,7 @@ seo:
     - name: 'twitter:title'
       value: Algorithmic Trading From Custom Indicators
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: Algorithmic Trading From Custom Indicators
     - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true
