@@ -24,8 +24,10 @@ sections:
       - title: Select your strategy. Control your risk.
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
-        content: |
+        content: >
           Our strategies are custom tailored and built from the ground up.
+          Sourcing many of our proprietary data feeds, we enable our users to
+          access tools that a usually only available to accredited investors.
         actions:
           - label: Learn More
             url: /features
