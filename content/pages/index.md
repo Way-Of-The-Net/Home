@@ -72,17 +72,17 @@ sections:
         url: /signup
         style: primary
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: Way Of The Net Algorithmic Trading
+  description: Algorithmic Trading From Custom Indicators
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: Algorithmic Trading From Custom Indicators
       keyName: property
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: Algorithmic Trading From Custom Indicators
       keyName: property
     - name: 'og:image'
       value: images/hero.png
@@ -91,9 +91,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
+      value: Algorithmic Trading From Custom Indicators
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: Algorithmic Trading From Custom Indicators
     - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true
