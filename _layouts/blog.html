@@ -1,0 +1,33 @@
+---
+layout: body
+---
+
+<div class="outer">
+  <div class="inner">
+    <div class="grid post-feed">
+      {% assign display_posts = '/blog' | get_pages | sort: 'date' | reverse %}
+      {% for post in display_posts %}
+      <article class="cell post">
+        <div class="card">
+          {% assign thumb_image_is_not_empty = post.thumb_image | is_not_empty %}
+          {% if thumb_image_is_not_empty %}
+          <a class="post-thumbnail" href="{{ post.url | relative_url }}">
+            <img src="{{ post.thumb_image | relative_url }}" alt="{{ post.thumb_image_alt }}" />
+          </a>
+          {% endif %}
+          <div class="post-body">
+            <header class="post-header">
+              <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            </header>
+            <div class="post-excerpt">
+              <p>{{ post.excerpt }}</p>
+            </div>
+            
+            {% include blog_post_footer.html page=post date_type='short' %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div><!-- .post-feed -->
+  </div><!-- .inner -->
+</div><!-- .outer-->

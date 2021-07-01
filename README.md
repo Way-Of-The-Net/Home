@@ -1,54 +1,60 @@
-# ✨ Azimuth Nextjs Theme ✨
+# ✨ Azimuth - Jekyll ✨
 
-This is Stackbit's "Azimuth" theme built with [Next.js](https://nextjs.org/) and
-powered by content stored in files.
+This is a [Jekyll](https://jekyllrb.com) theme using Git as a CMS. It was created with [Stackbit](https://www.stackbit.com?utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) in under a minute.
 
-Click the button below to create a new website from this theme using Stackbit:
+[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-jekyll&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes)
 
-<p align="center">
-  <a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes"><img alt="Create with Stackbit" src="https://assets.stackbit.com/badge/create-with-stackbit.svg"/></a>
-</p>
+You can [create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-jekyll&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme, or explore some variations. How about a different:
 
-[Live Site Demo](https://themes.stackbit.com/demos/azimuth/)
+<details>
+        <summary>⚙️ &nbsp;<strong>Static site generator</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-azimuth&ssg=gatsby&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Gatsby</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-azimuth&ssg=nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Next.js</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-azimuth&ssg=hugo&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Hugo</a></li>
+                </ul>
+</details>
 
-<img src="https://themes.stackbit.com/images/azimuth-demo-1024x768.png" width="600">
+<details>
+        <summary>✏️ &nbsp;<strong>CMS</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-azimuth&cms=netlifycms&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Netlify CMS</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-azimuth&cms=forestry&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Forestry</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-azimuth&cms=contentful&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Contentful</a></li>
+                </ul>
+</details>
 
-The theme can be used to create a static website that is hosted by a serverless
-deployment platform such as [Netlify](https://www.netlify.com). The contents of
-the website are stored in git with the rest of the site's code.
+## Contributing
 
-When deploying the website, [Sourcebit](https://github.com/stackbithq/sourcebit)
-reads the site's contents from files and provides it to Next.js. Once Next.js
-finishes generating the static website, [Netlify](https://www.netlify.com) pushes
-the static files to its CDN.
+This repository is auto-generated and can not receive pull-requests. If you have any suggestions or feedback you are welcome to submit an issue.
 
-[Sourcebit](https://github.com/stackbithq/sourcebit) and its plugins, specifically
-[`sourcebit-source-filesystem`](https://github.com/stackbithq/sourcebit-source-filesystem)
-and [`sourcebit-target-next`](https://github.com/stackbithq/sourcebit-target-next),
-are used to read the site's contents from files, normalize it, and provide it to
-Next.js pages. It also sets up live updates in development mode allowing you to
-update the content files and instantly see your updates in the browser.
+## Develop Locally
 
+1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 
-## Quick Start 🏎
+1. Install Jekyll and Bundler:
 
-[Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
+        gem install jekyll bundler
 
-Stackbit will execute following steps for you
+1. Install dependencies from Gemfile:
 
-- Create a new GitHub repository with the contents of this repository.
-- Create [Netlify](https://www.netlify.com) site connected to the GitHub repo
-- Deploy the Netlify site.
-- Create a "commit" webhook in GitHub that will trigger Netlify deployment as
-  soon as new commit is pushed to GitHub.
-- Create a Stackbit project that will allow you edit your website via on-page
-  visual editing experience. 
+        bundle install
 
 
-## Editing Content 📝
 
-Once Stackbit creates a site, you can start editing the content using the free
-on-page editing experience provided by the [Stackbit Studio](https://stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes).
+1. Build the site and start the Jekyll local development server
+
+        bundle exec jekyll serve --livereload
+
+1. Open [http://localhost:4000](http://localhost:4000) in the browser
+
+1. 🎉
+
+## Editing Content
+
+To start editing your site, you can edit the included Markdown files.
+
+Alternatively, create a new site with Stackbit from this theme and use the free on-page editing experience provided by the [Stackbit Studio](https://stackbit.com?utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes).
 
 [![](https://i3.ytimg.com/vi/zd9lGRLVDm4/hqdefault.jpg)](https://stackbit.link/project-readme-lead-video)
 
@@ -62,41 +68,6 @@ Here's a few resources to get you started:
 
 If you need a hand, make sure to check the [Stackbit support page](https://stackbit.link/project-readme-support).
 
+## Colophon
 
-## Develop Locally
-
-1. [Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
-
-1. Once finished, you will be redirected to Stackbit Studio where you will be
-   able to edit the content using the free on-page editing experience, and
-   publish new versions of your site.
-
-1. To further develop your site, clone the generated repository.
-
-1. Install dependencies
-
-       run npm install
-       
-1. Start the Next.js local development server:
-
-        npm run develop
-
-1. Open [http://localhost:3000/](http://localhost:3000/) in the browser to see
-   your site. You can now edit the site contents, and the browser will
-   live-update your changes. 🎉
-
-
-## Building for production 🏗
-
-To build a static site for production, or test locally how it worls, run the
-following command:
-
-    npm run build
-
-The exported site will be written to `out` folder. The contents of this folder 
-can be deployed by serverless deployment platform such as [Netlify](https://www.netlify.com).
-You can start a local server serving the static files from the `out` folder, for
-example by installing and running `http-server`:
-
-    npm install http-server -g
-    http-server out
+Generated at `2021-06-19T20:49:55.585Z` by Stackbit version `0.3.53`.

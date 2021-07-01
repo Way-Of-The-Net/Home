@@ -1,0 +1,29 @@
+{% assign section = include.section %}
+<section class="cell widget widget-form">
+  {% assign title_is_not_empty = section.title | is_not_empty %}
+  {% if title_is_not_empty %}
+  <h2 class="widget-title">{{ section.title }}</h2>
+  {% endif %}
+  {{ section.content | markdownify }}
+  <form name="{{ section.form_id }}" id="{{ section.form_id }}" {% assign form_action_is_not_empty = section.form_action | is_not_empty %}{% if form_action_is_not_empty %}
+    action="{{ section.form_action }}" {% endif %} method="POST" data-netlify="true"
+    data-netlify-honeypot="{{ section.form_id }}-bot-field">
+    <div class="screen-reader-text">
+      <label id="{{ section.form_id }}-honeypot-label" for="{{ section.form_id }}-honeypot">Don't fill this out if you're
+        human:</label>
+      <input aria-labelledby="{{ section.form_id }}-honeypot-label" id="{{ section.form_id }}-honeypot"
+        name="{{ section.form_id }}-bot-field" />
+    </div>
+    <input aria-labelledby="{{ section.form_id }}-honeypot-label" type="hidden" name="form-name"
+      value="{{ section.form_id }}" />
+    {% for field in section.form_fields %}
+    <div class="form-row">
+      
+      {% include form_field.html field=field %}
+    </div>
+    {% endfor %}
+    <div class="form-row">
+      <button type="submit" class="button">{{ section.submit_label }}</button>
+    </div>
+  </form>
+</section>

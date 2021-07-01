@@ -1,0 +1,17 @@
+{% assign section = include.section %}
+<section class="cell widget widget-text">
+  {% assign image_is_not_empty = section.image | is_not_empty %}
+  {% if image_is_not_empty %}
+    {% assign image_url_is_not_empty = section.image_url | is_not_empty %}
+    {% if image_url_is_not_empty %}
+    <a class="widget-image" href='{{ section.image_url | relative_url }}'><img src="{{ section.image | relative_url }}" alt="{{ section.image_alt }}" /></a>
+    {% else %}
+    <p class="widget-image"><img src="{{ section.image | relative_url }}" alt="{{ section.image_alt }}" /></p>
+    {% endif %}
+  {% endif %}
+  {% assign title_is_not_empty = section.title | is_not_empty %}
+  {% if title_is_not_empty %}
+  <h2 class="widget-title">{{ section.title }}</h2>
+  {% endif %}
+  {{ section.content | markdownify }}
+</section>

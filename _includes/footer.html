@@ -1,0 +1,43 @@
+<footer id="colophon" class="site-footer">
+  {% assign sections_is_not_empty = site.data.config.footer.sections | is_not_empty %}
+  {% if sections_is_not_empty %}
+    {% assign expr_1 = site.data.config.footer.sections | size %}
+    {% if expr_1 > 0 %}
+    <div class="footer-top outer">
+      <div class="inner">
+        <div class="grid footer-widgets">
+          {% for section in site.data.config.footer.sections %}
+            
+            {% assign component = section.type | append: ".html" %}
+            {% include {{ component }} section=section site=site %}
+          {% endfor %}
+        </div>
+      </div>
+    </div><!-- .footer-top -->
+    {% endif %}
+  {% endif %}
+  <div class="footer-bottom outer">
+    <div class="inner">
+      {% if site.data.config.footer.has_nav and site.data.config.footer.nav_links %}
+      <div class="footer-nav">
+        <ul class="menu">
+          {% for action in site.data.config.footer.nav_links %}
+          <li class="menu-item"> 
+            
+            {% include action_link.html action=action %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      <div class="site-info">
+        {{ site.data.config.footer.content }}
+        &nbsp;
+        {% for action in site.data.config.footer.links %}
+          
+          {% include action_link.html action=action %}
+        {% endfor %}
+      </div>
+    </div>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->

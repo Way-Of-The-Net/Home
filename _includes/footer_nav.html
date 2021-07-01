@@ -1,0 +1,18 @@
+{% assign section = include.section %}
+<section class="cell widget widget-nav">
+  {% assign title_is_not_empty = section.title | is_not_empty %}
+  {% if title_is_not_empty %}
+  <h2 class="widget-title">{{ section.title }}</h2>
+  {% endif %}
+  {% assign nav_links_is_not_empty = section.nav_links | is_not_empty %}
+  {% if nav_links_is_not_empty %}
+  <ul class="menu">
+    {% for action in section.nav_links %}
+    <li class="menu-item">
+      
+      {% include action.html action=action %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</section>
