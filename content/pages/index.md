@@ -73,7 +73,7 @@ sections:
         style: primary
 seo:
   title: Way Of The Net Algorithmic Trading
-  description: Algorithmic Trading 
+  description: Algorithmic Trading From Custom 
   extra:
     - name: 'og:type'
       value: website
