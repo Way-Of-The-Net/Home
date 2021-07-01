@@ -12,6 +12,7 @@ export default class Landing extends React.Component {
         const posts = _.get(this.props, 'posts');
         const sections = _.get(page, 'sections');
         const pageUrl = getPageUrl(page);
+        import { createChart } from 'lightweight-charts';
 
         return (
             <Layout page={page} config={config}>
