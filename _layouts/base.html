@@ -40,8 +40,6 @@
         {% if favicon_is_not_empty %}
         <link rel="icon" href="{{ site.data.config.favicon | relative_url }}">
         {% endif %}
-
-        {% include custom-scripts.html %}
     </head>
     <body class="palette-{{ site.data.config.palette }} font-{{ site.data.config.base_font }}">
         
@@ -50,5 +48,7 @@
         <script src="{{ 'js/plugins.js' | relative_url }}"></script>
         <script src="{{ 'js/init.js' | relative_url }}"></script>
         <script src="{{ 'js/main.js' | relative_url }}"></script>
+        <script src="{{ 'js/lightweight-charts.js' | relative_url }}"></script>
+        <script src="{{ 'js/chart.js' | relative_url }}"></script>
     </body>
 </html>
