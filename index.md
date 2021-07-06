@@ -61,7 +61,7 @@ sections:
             icon_position: right
   - section_id: call-to-action
     type: section_cta
-    title: Take our platform out for a free spin, let the odds work for you.
+    title: Take our platform out for a free spin, let the odds go to work for you.
     subtitle:
     actions:
       - label: Get Started

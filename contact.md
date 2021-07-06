@@ -6,9 +6,7 @@ sections:
     background: gray
     title: Contact
     content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus
-      tortor pretium ligula.
+      Contact us for more information on using our custom indicators and access to the web dashboard.
     form_id: contactForm
     form_fields:
       - input_type: text
