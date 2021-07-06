@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b58ec4-292d-439d-bdb8-66a428733bf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/Way-Of-The-Net9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Way-Of-The-Netwebsizehigh1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/WayOfTheNet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/stock-vs-market.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/charts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/_data/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/review3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/contact.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features.md" beforeDir="false" afterPath="$PROJECT_DIR$/features.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/trades.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.md" beforeDir="false" afterPath="$PROJECT_DIR$/signup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trades.md" beforeDir="false" afterPath="$PROJECT_DIR$/trades.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Sass File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -41,18 +34,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/_site/assets/css/main.css" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
     </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="127.0.0.1:4000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://127.0.0.1:4000//">
@@ -75,6 +79,9 @@
       <updated>1625178912300</updated>
       <workItem from="1625178913749" duration="90000" />
       <workItem from="1625179026635" duration="4388000" />
+      <workItem from="1625273949659" duration="4942000" />
+      <workItem from="1625601391446" duration="1276000" />
+      <workItem from="1625603231906" duration="3429000" />
     </task>
     <servers />
   </component>
@@ -91,5 +98,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

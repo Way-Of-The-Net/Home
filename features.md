@@ -6,28 +6,25 @@ sections:
     background: gray
     image: images/feature1.png
     image_alt: App preview on a phone and tablet
-    title: The Best Features of Your Services
+    title: Bringing you the top indicators in the industry
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      The best indicators are built by pros and kept secret. Let us help pull back the curtain for you.
 
 
-      * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      * Unusual Options Activity
 
-      * Ut eu nunc at diam fringilla fringilla eu ut massa.
+      * Identifying Gamma Squeezes
 
-      * Phasellus ut enim non lorem venenatis rutrum.
+      * AI based sentiment analysis
 
 
-      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
-      sed justo tempor condimentum.
+      Get ahead of the trade and into the profit.
     actions:
       - label: Free Trial
-        url: /signup
+        url: /contact
         style: primary
       - label: View Demo
-        url: '#'
+        url: /trades
         style: secondary
   - section_id: call-to-action
     type: section_cta

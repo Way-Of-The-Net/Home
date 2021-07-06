@@ -24,8 +24,9 @@ sections:
         label: Subject
         default_value: Please select
         options:
-          - Error on the site
-          - Sponsorship
+          - How to Become a Client
+          - Platform Support
+          - Partnership Opportunities
           - Other
       - input_type: textarea
         name: message

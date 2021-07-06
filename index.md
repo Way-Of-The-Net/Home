@@ -21,13 +21,13 @@ sections:
       Enabling users to choose the algorithmic strategy they feel most
       comfortable with to manage their portfolio.
     features:
-      - title: Select your strategy. Control your risk.
+      - title: Select a strategy. Control your risk.
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         content: >-
           Our strategies are custom tailored and built from the ground up.
           Sourcing many of our proprietary data feeds, we enable our users to
-          access tools that a usually only available to accredited investors.
+          access tools that are usually only available to accredited investors.
         actions:
           - label: Learn More
             url: /features
@@ -35,13 +35,11 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Awesome Feature of Your Services
+      - title: Enable the algorithms you want. Cut out the rest.
         image: images/feature2.png
         image_alt: App users welcoming a new member
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+            We offer many custom indicators, of which you can use as many or few as you choose.
         actions:
           - label: Learn More
             url: /features
@@ -49,13 +47,11 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Cool Feature of Your Services
+      - title: Zero in on the strategy that works best with live tracking and performance.
         image: images/feature3.png
         image_alt: App user profile preview
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+            Our state of the art statistics and metrics are growing in number with every day!
         actions:
           - label: Learn More
             url: /features
@@ -65,8 +61,8 @@ sections:
             icon_position: right
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: Take our platform out for a free spin, let the odds work for you.
+    subtitle:
     actions:
       - label: Get Started
         url: /signup
