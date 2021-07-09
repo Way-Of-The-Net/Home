@@ -35,6 +35,7 @@
         {% elsif font == 'fira-sans' %}
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
         {% endif %}
+        <link rel="stylesheet" href="https://unpkg.com/@tabler/core@1.0.0-beta3/dist/css/tabler.min.css">
         <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
         {% assign favicon_is_not_empty = site.data.config.favicon | is_not_empty %}
         {% if favicon_is_not_empty %}
@@ -49,6 +50,7 @@
         <script src="{{ 'js/init.js' | relative_url }}"></script>
         <script src="{{ 'js/main.js' | relative_url }}"></script>
         <script src="{{ 'https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js' | uri_escape }}"></script>
+        <script src="{{ 'https://unpkg.com/@tabler/core@1.0.0-beta3/dist/js/tabler.min.js' | uri_escape }}"></script>
         <script src="{{ 'js/chart.js' | relative_url }}"></script>
     </body>
 </html>
