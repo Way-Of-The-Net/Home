@@ -5,66 +5,73 @@ const chart = LightweightCharts.createChart(document.getElementById("tradingview
     },
 });
 
-const lineSeries = chart.addAreaSeries({
+const candleStickSeries = chart.addCandlestickSeries({
     title: 'THE PRICE',
     scaleMargins: {
         top: 0.6,
         bottom: 0.05,
     },
+    upColor: '#6495ED',
+    downColor: '#FF6347',
+    borderVisible: false,
+    wickVisible: true,
+    borderColor: '#000000',
+    wickColor: '#000000',
+    borderUpColor: '#4682B4',
+    borderDownColor: '#A52A2A',
+    wickUpColor: '#4682B4',
+    wickDownColor: '#A52A2A',
 });
 
-// TODO: Gather this data from database stored at Steve's
-lineSeries.setData([
-    { time: '2021-07-11', value: 80.01 },
-    { time: '2021-07-12', value: 96.63 },
-    { time: '2021-07-13', value: 76.64 },
-    { time: '2021-07-14', value: 81.89 },
-    { time: '2021-07-15', value: 74.43 },
-    { time: '2021-07-16', value: 80.01 },
-    { time: '2021-07-17', value: 96.63 },
-    { time: '2021-07-18', value: 76.64 },
-    { time: '2021-07-19', value: 81.89 },
-    { time: '2021-07-20', value: 74.43 },
-]);
+// let chartFormattedOrders = []
+// fetch("https://trade.wayofthe.net")
+//     .then(response => response.json())
+//     .then(t => {
+//         let s, p, c = ''
+//         for (let x = 0; x < t.length; x++){
+//             if (t[x].order_type === 'BUY') {
+//                 s = 'arrowUp';
+//                 p = 'aboveBar';
+//                 c = 'green';
+//             } else {
+//                 s = 'arrowDown';
+//                 p = 'belowBar';
+//                 c = 'red';
+//             }
+//             let obj = {
+//                 time: t[x].time.slice(0, 10),
+//                 position: p,
+//                 color: c,
+//                 shape: s,
+//                 text: t[x].quantity.toString()
+//             }
+//             chartFormattedOrders.push(obj)
+//         }
+//         lineSeries.setMarkers(chartFormattedOrders)
+//     })
 
-let xhr = new XMLHttpRequest();
-xhr.open("GET", "https://trade.wayofthe.net", false)
-
-let chartFormattedOrders = []
-
-try {
-    xhr.send()
-    if (xhr.status != 200) {
-        alert(`Error ${xhr.status}: ${xhr.statusText}`);
-    } else {
-        let resp = JSON.parse(xhr.response);
-        let s, p, c = ''
-        for (let x = 0; x < resp.length; x++){
-            if (resp[x].order_type == 'BUY') {
-                s = 'arrowUp';
-                p = 'aboveBar';
-                c = 'green';
-            } else {
-                s = 'arrowDown';
-                p = 'belowBar';
-                c = 'red';
-            }
+let customChart = []
+fetch("http://localhost:8080/ticker/RKT")
+    .then(response => response.json())
+    .then(t => {
+        // if time is < 1 day, use this format:
+        // d.getFullYear() + '-' + d.getMonth() + '-' + d.getDay(),
+        for (let x = 0; x < t.o.length; x++){
+            // let d = new Date(t.t[x] * 1000)
             let obj = {
-                time: resp[x].time.slice(0, 10),
-                position: p,
-                color: c,
-                shape: s,
-                text: resp[x].quantity.toString()
+                time: t.t[x],
+                open: t.o[x],
+                high: t.h[x],
+                low: t.l[x],
+                close: t.c[x],
             }
-            chartFormattedOrders.push(obj)
+            customChart.push(obj)
         }
-        console.log(chartFormattedOrders)
-        lineSeries.setMarkers(chartFormattedOrders)
-    }
-} catch(err) {
-    alert("Request Failed")
-}
+        candleStickSeries.setData(customChart)
+    })
 
+
+console.log(customChart)
 // const priceLine = lineSeries.createPriceLine({
 //     price: 80.0,
 //     color: 'green',
