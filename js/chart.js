@@ -51,7 +51,7 @@ const candleStickSeries = chart.addCandlestickSeries({
 //     })
 
 let customChart = []
-fetch("http://localhost:8080/ticker/RKT")
+fetch("https://trade.wayofthe.net/ticker/RKT")
     .then(response => response.json())
     .then(t => {
         // if time is < 1 day, use this format:
