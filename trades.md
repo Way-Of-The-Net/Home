@@ -36,7 +36,7 @@ Here you'll find the daily return profile from using our custom strategies.
       <tr>
         <th>Ticker</th>
         <th>Company</th>
-        <th>Profit %</th>
+        <th>Change</th>
         <th>Time in trade</th>
         <th class="w-1"></th>
       </tr>
@@ -44,41 +44,46 @@ Here you'll find the daily return profile from using our custom strategies.
     <tbody>
       <tr>
         <td>RKT</td>
-        <td>Rocket Comapnies Inc</td>
+        <td>Rocket Companies Inc</td>
+        <td>10%</td>
+        <td>3d 4h</td>
       </tr>
       <tr>
         <td>GME</td>
         <td>GameStop</td>
+        <td>2,000%</td>
+        <td>1w</td>
       </tr>
     </tbody>
   </table>
 </div>
 
 ## Losses
-<table>
+<table class="table table-vcenter">
   <caption>Losses and Profits are not actualized and subject to change. Both are reported with delay.</caption>
   <thead>
     <tr>
-      <th>Header content 1</th>
-      <th>Header content 2</th>
+      <th>Ticker</th>
+      <th>Company</th>
+      <th>Change</th>
+      <th>Time in trade</th>
+      <th class="w-1"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Body content 1</td>
-      <td>Body content 2</td>
+      <td>RKT</td>
+      <td>Rocket Companies Inc</td>
+      <td>-1.5%</td>
+      <td>3m 2d 9h</td>
+    </tr>
+    <tr>
+      <td>AMC</td>
+      <td>AMC Entertainment</td>
+      <td>-5%</td>
+      <td>1d 5m</td>
     </tr>
   </tbody>
-  <tfoot>
-    <tr>
-      <td>Footer content 1</td>
-      <td>Footer content 2</td>
-    </tr>
-  </tfoot>
 </table>
-
-### Miscellaneous Statistics
-
-Quisque facilisis erat a dui. Nam malesuada ornare dolor. Cras gravida, diam sit amet rhoncus ornare, erat elit consectetuer erat, id egestas pede nibh eget odio. Proin tincidunt, velit vel porta elementum, magna diam molestie sapien, non aliquet massa pede eu diam. Aliquam iaculis.
 
 **This is not financial advice.**
