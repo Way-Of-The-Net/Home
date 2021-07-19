@@ -26,9 +26,13 @@ layout: page
 ---
 ## Portfolio Tracking
 <div id="tradingview"></div>
+<br/>
+<div>
 Here you'll find the daily return profile from using our custom strategies.
+</div>
 
-## Profits
+
+## Latest Profits
 <div class="table-responsive">
 <!-- TODO: Turn this into a javascript generated function -->
   <table class="table table-vcenter">
@@ -43,22 +47,28 @@ Here you'll find the daily return profile from using our custom strategies.
     </thead>
     <tbody>
       <tr>
-        <td>RKT</td>
-        <td>Rocket Companies Inc</td>
-        <td>10%</td>
+        <td>MVIS</td>
+        <td>Microvision Inc</td>
+        <td>3%</td>
         <td>3d 4h</td>
+      </tr>
+      <tr>
+        <td>PTON</td>
+        <td>Peloton Interactive Inc</td>
+        <td>9%</td>
+        <td>2d 4h</td>
       </tr>
       <tr>
         <td>GME</td>
         <td>GameStop</td>
-        <td>2,000%</td>
+        <td>200%</td>
         <td>1w</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-## Losses
+## Latest Losses
 <table class="table table-vcenter">
   <caption>Losses and Profits are not actualized and subject to change. Both are reported with delay.</caption>
   <thead>
