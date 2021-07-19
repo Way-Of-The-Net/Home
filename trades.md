@@ -24,15 +24,14 @@ seo:
       value: This is the style guide page
 layout: page
 ---
-## Latest Trades
+## Portfolio Tracking
 <div id="tradingview"></div>
-Quisque facilisis erat a dui. Nam malesuada ornare dolor. Cras gravida, this is marked text ornare, erat elit consectetuer erat, id egestas pede nibh eget odio. Proin tincidunt, velit vel porta elementum, magna diam molestie sapien, non aliquet massa pede eu diam. Aliquam iaculis. Fusce et ipsum et nulla tristique facilisis.
-
+Here you'll find the daily return profile from using our custom strategies.
 
 ## Profits
 <div class="table-responsive">
+<!-- TODO: Turn this into a javascript generated function -->
   <table class="table table-vcenter">
-  <caption>Profits are reported with delay</caption>
     <thead>
       <tr>
         <th>Ticker</th>
@@ -57,7 +56,7 @@ Quisque facilisis erat a dui. Nam malesuada ornare dolor. Cras gravida, this is 
 
 ## Losses
 <table>
-    <caption>Table with thead, tfoot, and tbody</caption>
+  <caption>Losses and Profits are not actualized and subject to change. Both are reported with delay.</caption>
   <thead>
     <tr>
       <th>Header content 1</th>

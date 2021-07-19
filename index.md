@@ -3,7 +3,7 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/stock-vs-market.jpg
+    image: images/stock/Image 15.jpg
     image_alt: App preview
     title: Building Custom Indicators for Success in Quant Trading
     content: >-
@@ -22,7 +22,7 @@ sections:
       comfortable with to manage their portfolio.
     features:
       - title: Select a strategy. Control your risk.
-        image: images/feature1.png
+        image: images/stock/Image 19.jpg
         image_alt: App preview on a phone and tablet
         content: >-
           Our strategies are custom tailored and built from the ground up.
@@ -36,7 +36,7 @@ sections:
             icon: arrow-right
             icon_position: right
       - title: Enable the algorithms you want. Cut out the rest.
-        image: images/feature2.png
+        image: images/stock/Image 1.jpg
         image_alt: App users welcoming a new member
         content: >-
             We offer many custom indicators, of which you can use as many or few as you choose.
@@ -48,7 +48,7 @@ sections:
             icon: arrow-right
             icon_position: right
       - title: Zero in on the strategy that works best with live tracking and performance.
-        image: images/feature3.png
+        image: images/stock/Image 4.jpg
         image_alt: App user profile preview
         content: >-
             Our state of the art statistics and metrics are growing in number with every day!
